@@ -1,0 +1,130 @@
+#ninta {
+    height: 240px;
+    background:#fff url(../images/866.png) no-repeat;border-radius:5px;border:1px solid #ddd;
+    padding: 10px;
+    color: #555;
+}
+
+#ninta a {
+    float: right;
+    margin-right: 15%;
+    margin-top: 70px;
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+#ninta #avatar {
+    height:200px;
+    width: 18%;
+    float:left;
+}
+
+#staff {color:#999}
+
+#my-stats {width:82%;float:right;margin-top:22px;
+    color: #fff;
+}
+
+#my-stats .bar {color:#555;
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius:5px;float:left;
+text-align:left;text-transform:uppercase;padding:5px;
+    font-size: 11px;height:42px;width:45%;margin:10px;line-height:30px;
+}
+
+#my-stats #clubBar {
+    color: #7CBAC2;
+}
+
+#my-stats .bar > .icon {
+    height: 30px;
+    width: 30px;
+    float: right;
+    border-radius: 5px;
+}
+
+#my-stats .bar > .credits {margin-left: 3px; background: url(../images/credits/01.png) no-repeat center center #ddd;}
+
+#my-stats .bar > .belCredits {margin-left: 3px;background: url(../images/credits/02.png) no-repeat center center #ddd;}
+
+#my-stats .bar > .duckets {   margin-left: 3px;background: url(../images/credits/03.png) no-repeat center center #ddd;}
+
+#my-stats .bar > .diamonds {margin-left: 3px;background: url(../images/credits/04.png) no-repeat center center #ddd;}
+
+#my-stats .bar > .eventPoints {margin-left: 3px;background: url(../images/credits/05.png) no-repeat center center #ddd;}
+
+#my-stats .bar > .club {margin-left: 3px;background: url(../images/credits/06.png) no-repeat center center #ddd;}
+
+#my-stats .bar  #Amount {float: right;}
+
+#online-friends {
+    width:100%;
+    margin-bottom:20px
+}
+
+#online-friends .title {
+    font-size:15px;
+    font-weight:600;
+    border-bottom:1px solid rgba(0,0,0,0.1)
+}
+
+#online-friends .title .righting {
+    float:right;
+    display:inline-block;
+    font-size:11px;
+    font-weight:300;
+    margin-top:3px
+}
+
+#online-friends .player {
+    text-align:center;
+    float:left;
+    margin-top:15px;
+    margin-bottom:15px;
+    cursor:pointer;
+    margin-right:15px
+}
+
+#online-friends .player.seen {
+    filter:grayscale(100%)
+}
+
+#online-friends .player .user {
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    border:2px solid #0288D1;
+    overflow:hidden;
+    padding:3px
+}
+
+#online-friends .player .user.add {
+    border-color:#2ecc71
+}
+
+#online-friends .player .user .inline {
+    border-radius:50%;
+    background:#fff;
+    height:50px;
+    overflow:hidden
+}
+
+#online-friends .player .user .inline i {
+    font-size:20px;
+    color:#2ecc71
+}
+
+#online-friends .player .user .inline img {
+    margin-left: -13px;
+    margin-top: -17px;
+}
+
+#online-friends .player .name{
+    margin-top:5px
+}
+
+
